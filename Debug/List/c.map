@@ -1,0 +1,203 @@
+###############################################################################
+#
+# IAR ELF Linker V7.30.1.7746/W32 for ARM                 15/Nov/2014  14:18:48
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  E:\Faculta\Dizertatie\Debug\Exe\c.out
+#    Map file     =  E:\Faculta\Dizertatie\Debug\List\c.map
+#    Command line =  
+#        E:\Faculta\Dizertatie\Debug\Obj\adc.o
+#        E:\Faculta\Dizertatie\Debug\Obj\can.o
+#        E:\Faculta\Dizertatie\Debug\Obj\comp.o
+#        E:\Faculta\Dizertatie\Debug\Obj\cpu.o
+#        E:\Faculta\Dizertatie\Debug\Obj\eeprom.o
+#        E:\Faculta\Dizertatie\Debug\Obj\flash.o
+#        E:\Faculta\Dizertatie\Debug\Obj\fpu.o
+#        E:\Faculta\Dizertatie\Debug\Obj\gpio.o
+#        E:\Faculta\Dizertatie\Debug\Obj\hal_clock.o
+#        E:\Faculta\Dizertatie\Debug\Obj\hibernate.o
+#        E:\Faculta\Dizertatie\Debug\Obj\i2c.o
+#        E:\Faculta\Dizertatie\Debug\Obj\interrupt.o
+#        E:\Faculta\Dizertatie\Debug\Obj\main.o
+#        E:\Faculta\Dizertatie\Debug\Obj\mpu.o
+#        E:\Faculta\Dizertatie\Debug\Obj\pwm.o
+#        E:\Faculta\Dizertatie\Debug\Obj\qei.o
+#        E:\Faculta\Dizertatie\Debug\Obj\ssi.o
+#        E:\Faculta\Dizertatie\Debug\Obj\startup_ewarm.o
+#        E:\Faculta\Dizertatie\Debug\Obj\sw_crc.o
+#        E:\Faculta\Dizertatie\Debug\Obj\sysctl.o
+#        E:\Faculta\Dizertatie\Debug\Obj\sysexc.o
+#        E:\Faculta\Dizertatie\Debug\Obj\systick.o
+#        E:\Faculta\Dizertatie\Debug\Obj\timer.o
+#        E:\Faculta\Dizertatie\Debug\Obj\uart.o
+#        E:\Faculta\Dizertatie\Debug\Obj\udma.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usb.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbbuffer.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdaudio.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdbulk.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdcdc.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdcdesc.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdcomp.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdconfig.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbddfu-rt.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdenum.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdesc.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdhandler.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdhid.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdhidkeyb.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdhidmouse.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdma.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbdmsc.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbhaudio.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbhhid.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbhhidkeyboard.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbhhidmouse.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbhhub.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbhmsc.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbhostenum.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbhscsi.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbkeyboardmap.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbmode.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbringbuf.o
+#        E:\Faculta\Dizertatie\Debug\Obj\usbtick.o
+#        E:\Faculta\Dizertatie\Debug\Obj\watchdog.o -o
+#        E:\Faculta\Dizertatie\Debug\Exe\c.out --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull --map
+#        E:\Faculta\Dizertatie\Debug\List\c.map --config "D:\Kit\IAR
+#        Systems\Embedded Workbench
+#        7.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0003ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+
+  Section  Kind        Address   Size  Object
+  -------  ----        -------   ----  ------
+"A1":                           0x26c
+  .intvec  const    0x00000000  0x26c  startup_ewarm.o [1]
+                  - 0x0000026c  0x26c
+
+"P1":                           0x204
+  .text    ro code  0x0000026c  0x158  sysctl.o [1]
+  .text    ro code  0x000003c4   0x22  fpinit_M.o [4]
+  .text    ro code  0x000003e8   0x1e  startup_ewarm.o [1]
+  .text    ro code  0x00000406    0xc  cstartup_M.o [5]
+  .text    ro code  0x00000414   0x1a  cmain.o [5]
+  .text    ro code  0x0000042e    0x4  low_level_init.o [3]
+  .text    ro code  0x00000432    0xa  main.o [1]
+  .text    ro code  0x0000043c    0x4  exit.o [3]
+  .text    ro code  0x00000440   0x10  hal_clock.o [1]
+  .text    ro code  0x00000450    0xa  cexit.o [5]
+  .text    ro code  0x0000045c   0x14  exit.o [6]
+                  - 0x00000470  0x204
+
+"P2":                           0x100
+  .noinit  uninit   0x20000000  0x100  startup_ewarm.o [1]
+                  - 0x20000100  0x100
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+E:\Faculta\Dizertatie\Debug\Obj: [1]
+    hal_clock.o            16
+    main.o                 10
+    startup_ewarm.o        30      620      256
+    sysctl.o              344
+    -------------------------------------------
+    Total:                400      620      256
+
+command line: [2]
+    -------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tlv.a: [4]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [5]
+    cexit.o                10
+    cmain.o                26
+    cstartup_M.o           12
+    -------------------------------------------
+    Total:                 48
+
+shb_l.a: [6]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6
+-----------------------------------------------
+    Grand Total:          516      620      256
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address   Size  Type      Object
+-----                    -------   ----  ----      ------
+?main                 0x00000415         Code  Gb  cmain.o [5]
+FaultISR              0x00000403    0x2  Code  Lc  startup_ewarm.o [1]
+HAL_Clock_Init        0x00000441   0x10  Code  Gb  hal_clock.o [1]
+IntDefaultHandler     0x00000405    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                 0x00000401    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base   0x00000000          --   Gb  - Linker created -
+Region$$Table$$Limit  0x00000000          --   Gb  - Linker created -
+ResetISR              0x000003e9   0x14  Code  Gb  startup_ewarm.o [1]
+SysCtlClockSet        0x00000275  0x12a  Code  Gb  sysctl.o [1]
+SysCtlDelay           0x0000026d    0x8  Code  Gb  sysctl.o [1]
+__cmain               0x00000415         Code  Gb  cmain.o [5]
+__exit                0x0000045d   0x14  Code  Gb  exit.o [6]
+__iar_init_vfp        0x000003c5         Code  Gb  fpinit_M.o [4]
+__iar_program_start   0x00000407         Code  Gb  cstartup_M.o [5]
+__low_level_init      0x0000042f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table        0x00000000  0x26c  Data  Gb  startup_ewarm.o [1]
+_call_main            0x00000421         Code  Gb  cmain.o [5]
+_exit                 0x00000451         Code  Gb  cexit.o [5]
+_main                 0x0000042b         Code  Gb  cmain.o [5]
+exit                  0x0000043d    0x4  Code  Gb  exit.o [3]
+main                  0x00000433    0xa  Code  Gb  main.o [1]
+pui32Stack            0x20000000  0x100  Data  Lc  startup_ewarm.o [1]
+
+
+[1] = E:\Faculta\Dizertatie\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tlv.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  516 bytes of readonly  code memory
+  620 bytes of readonly  data memory
+  256 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
