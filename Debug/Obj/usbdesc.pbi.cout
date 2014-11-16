@@ -1,22 +1,22 @@
-"E:\Faculta\Dizertatie\Libraries\usblib\usbdesc.c"
+"E:\kit\TI\HAL-TI\Libraries\usblib\usbdesc.c"
 -std=c99
 -ferror-limit=100
 -I
-E:\Faculta\Dizertatie
+E:\kit\TI\HAL-TI
 -I
-E:\Faculta\Dizertatie\Libraries
+E:\kit\TI\HAL-TI\Libraries
 -I
-E:\Faculta\Dizertatie\Hardware
+E:\kit\TI\HAL-TI\Hardware
 -I
 D:\Kit\IAR Systems\Embedded Workbench 7.0\arm\inc
 -I
 D:\Kit\IAR Systems\Embedded Workbench 7.0\arm\inc\c
 -I
-E:\Faculta\Dizertatie
+E:\kit\TI\HAL-TI
 -I
-E:\Faculta\Dizertatie\Libraries
+E:\kit\TI\HAL-TI\Libraries
 -I
-E:\Faculta\Dizertatie\Hardware
+E:\kit\TI\HAL-TI\Hardware
 -Dewarm=1
 -DPART_TM4C123GH6PM=1
 -DTARGET_IS_BLIZZARD_RB1=1
@@ -224,8 +224,8 @@ E:\Faculta\Dizertatie\Hardware
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=594176
 -D_GOANNA=1
--D__DATE__="Nov 15 2014"
--D__TIME__="14:19:04"
+-D__DATE__="Nov 16 2014"
+-D__TIME__="19:29:12"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1

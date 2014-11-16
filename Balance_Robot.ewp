@@ -1890,6 +1890,18 @@
     </settings>
   </configuration>
   <group>
+    <name>Globals</name>
+    <file>
+      <name>$PROJ_DIR$\Globals\log.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Globals\log.h</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Globals\typedefs.h</name>
+    </file>
+  </group>
+  <group>
     <name>Hardware</name>
     <file>
       <name>$PROJ_DIR$\Hardware\hal_clock.c</name>

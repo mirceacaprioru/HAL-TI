@@ -1,70 +1,63 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.30.1.7746/W32 for ARM                 15/Nov/2014  14:18:48
+# IAR ELF Linker V7.30.1.7746/W32 for ARM                 16/Nov/2014  19:28:23
 # Copyright 2007-2014 IAR Systems AB.
 #
-#    Output file  =  E:\Faculta\Dizertatie\Debug\Exe\c.out
-#    Map file     =  E:\Faculta\Dizertatie\Debug\List\c.map
+#    Output file  =  E:\kit\TI\HAL-TI\Debug\Exe\c.out
+#    Map file     =  E:\kit\TI\HAL-TI\Debug\List\c.map
 #    Command line =  
-#        E:\Faculta\Dizertatie\Debug\Obj\adc.o
-#        E:\Faculta\Dizertatie\Debug\Obj\can.o
-#        E:\Faculta\Dizertatie\Debug\Obj\comp.o
-#        E:\Faculta\Dizertatie\Debug\Obj\cpu.o
-#        E:\Faculta\Dizertatie\Debug\Obj\eeprom.o
-#        E:\Faculta\Dizertatie\Debug\Obj\flash.o
-#        E:\Faculta\Dizertatie\Debug\Obj\fpu.o
-#        E:\Faculta\Dizertatie\Debug\Obj\gpio.o
-#        E:\Faculta\Dizertatie\Debug\Obj\hal_clock.o
-#        E:\Faculta\Dizertatie\Debug\Obj\hibernate.o
-#        E:\Faculta\Dizertatie\Debug\Obj\i2c.o
-#        E:\Faculta\Dizertatie\Debug\Obj\interrupt.o
-#        E:\Faculta\Dizertatie\Debug\Obj\main.o
-#        E:\Faculta\Dizertatie\Debug\Obj\mpu.o
-#        E:\Faculta\Dizertatie\Debug\Obj\pwm.o
-#        E:\Faculta\Dizertatie\Debug\Obj\qei.o
-#        E:\Faculta\Dizertatie\Debug\Obj\ssi.o
-#        E:\Faculta\Dizertatie\Debug\Obj\startup_ewarm.o
-#        E:\Faculta\Dizertatie\Debug\Obj\sw_crc.o
-#        E:\Faculta\Dizertatie\Debug\Obj\sysctl.o
-#        E:\Faculta\Dizertatie\Debug\Obj\sysexc.o
-#        E:\Faculta\Dizertatie\Debug\Obj\systick.o
-#        E:\Faculta\Dizertatie\Debug\Obj\timer.o
-#        E:\Faculta\Dizertatie\Debug\Obj\uart.o
-#        E:\Faculta\Dizertatie\Debug\Obj\udma.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usb.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbbuffer.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdaudio.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdbulk.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdcdc.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdcdesc.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdcomp.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdconfig.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbddfu-rt.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdenum.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdesc.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdhandler.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdhid.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdhidkeyb.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdhidmouse.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdma.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbdmsc.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbhaudio.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbhhid.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbhhidkeyboard.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbhhidmouse.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbhhub.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbhmsc.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbhostenum.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbhscsi.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbkeyboardmap.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbmode.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbringbuf.o
-#        E:\Faculta\Dizertatie\Debug\Obj\usbtick.o
-#        E:\Faculta\Dizertatie\Debug\Obj\watchdog.o -o
-#        E:\Faculta\Dizertatie\Debug\Exe\c.out --redirect _Printf=_PrintfFull
-#        --redirect _Scanf=_ScanfFull --map
-#        E:\Faculta\Dizertatie\Debug\List\c.map --config "D:\Kit\IAR
-#        Systems\Embedded Workbench
+#        E:\kit\TI\HAL-TI\Debug\Obj\adc.o E:\kit\TI\HAL-TI\Debug\Obj\can.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\comp.o E:\kit\TI\HAL-TI\Debug\Obj\cpu.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\eeprom.o E:\kit\TI\HAL-TI\Debug\Obj\flash.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\fpu.o E:\kit\TI\HAL-TI\Debug\Obj\gpio.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\hal_clock.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\hal_gpio.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\hal_uart.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\hibernate.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\i2c.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\interrupt.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\log.o E:\kit\TI\HAL-TI\Debug\Obj\main.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\mpu.o E:\kit\TI\HAL-TI\Debug\Obj\pwm.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\qei.o E:\kit\TI\HAL-TI\Debug\Obj\ssi.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\startup_ewarm.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\sw_crc.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\sysctl.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\sysexc.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\systick.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\timer.o E:\kit\TI\HAL-TI\Debug\Obj\uart.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\udma.o E:\kit\TI\HAL-TI\Debug\Obj\usb.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbbuffer.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdaudio.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdbulk.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdcdc.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdcdesc.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdcomp.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdconfig.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbddfu-rt.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdenum.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdesc.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdhandler.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdhid.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdhidkeyb.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdhidmouse.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdma.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbdmsc.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbhaudio.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbhhid.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbhhidkeyboard.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbhhidmouse.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbhhub.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbhmsc.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbhostenum.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbhscsi.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbkeyboardmap.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbmode.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbringbuf.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\usbtick.o
+#        E:\kit\TI\HAL-TI\Debug\Obj\watchdog.o -o
+#        E:\kit\TI\HAL-TI\Debug\Exe\c.out --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull --map E:\kit\TI\HAL-TI\Debug\List\c.map
+#        --config "D:\Kit\IAR Systems\Embedded Workbench
 #        7.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
 #        --entry __iar_program_start --vfe
 #
@@ -118,7 +111,7 @@ __SystemLibrary = DLib
 
     Module            ro code  ro data  rw data
     ------            -------  -------  -------
-E:\Faculta\Dizertatie\Debug\Obj: [1]
+E:\kit\TI\HAL-TI\Debug\Obj: [1]
     hal_clock.o            16
     main.o                 10
     startup_ewarm.o        30      620      256
@@ -188,7 +181,7 @@ main                  0x00000433    0xa  Code  Gb  main.o [1]
 pui32Stack            0x20000000  0x100  Data  Lc  startup_ewarm.o [1]
 
 
-[1] = E:\Faculta\Dizertatie\Debug\Obj
+[1] = E:\kit\TI\HAL-TI\Debug\Obj
 [2] = command line
 [3] = dl7M_tln.a
 [4] = m7M_tlv.a
